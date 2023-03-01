@@ -3,7 +3,9 @@
 [Project Page]() | [Paper]() | [Video](https://www.youtube.com/watch?v=qoWWP7f93BM&ab_channel=AnonymousNonname)
 
 ## Author Information
-
+- [Author 1]()
+- [Author 2]()
+- [Author 3]()
 
 <div style="text-align:center">
 <img src="images/concept.png" alt="" width="600"/>
@@ -24,10 +26,12 @@ Calibration is the first and crucial step in robotic applications to help robots
 <p align="center">
 <img src="images/detector.png" alt="" width="800"/>
 </p>
+
 ### Calibration results
 <p align="center">
 <img src="images/calib.png" alt="" width="800"/>
 </p>
+
 ## Installation
 
 ### Recommendation
@@ -52,6 +56,14 @@ You can find the pre-trained models for three strategies here.
 - [Fined-tunning]()
 - [Scratch]()
 
+## Dataset
+We train our custom models with our own in-lab dataset.
+You can find it here [Dataset](https://github.com/anonymous20210107/calib_cobot/tree/main/yolov8_custom/3d_shapes)
+
+
+## Yolov8
+- Reference from [Yolov8]()
+- Our custom code for calculating Precision over IoU [Volov8_custom](https://github.com/anonymous20210107/calib_cobot/tree/main/yolov8_custom)
 
 ## Citing
 
