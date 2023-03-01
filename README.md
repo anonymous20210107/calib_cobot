@@ -14,7 +14,7 @@
 # Video
 
 <p align="center">
-[![Demo](images/concept.png)](images/video.mp4)
+[![Demo](https://github.com/anonymous20210107/calib_cobot/blob/main/images/concept.png)](https://github.com/anonymous20210107/calib_cobot/blob/main/images/video.mp4)
 </p>
 
 
