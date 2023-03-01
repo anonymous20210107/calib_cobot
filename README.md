@@ -7,9 +7,9 @@
 - [Author 2]()
 - [Author 3]()
 
-<div style="text-align:center">
+<p align="center">
 <img src="images/concept.png" alt="" width="600"/>
-</div>
+</p>
 
 
 ## Abstract
@@ -48,13 +48,14 @@ Calibration is the first and crucial step in robotic applications to help robots
 You can find the pre-trained models for three strategies here.
 
 ### Pytorch models
-- [Feature Transfer]()
-- [Fined-tunning]()
-- [Scratch]()
-### Onnx models
-- [Feature Transfer]()
-- [Fined-tunning]()
-- [Scratch]()
+- [Feature Transfer](https://github.com/anonymous20210107/calib_cobot/blob/main/yolov8_custom/models_v8_1000/v8_1000_freeze.pt)
+- [Fined-tunning](https://github.com/anonymous20210107/calib_cobot/blob/main/yolov8_custom/models_v8_1000/v8_1000_pretrain.pt)
+- [Scratch](https://github.com/anonymous20210107/calib_cobot/blob/main/yolov8_custom/models_v8_1000/v8_1000_scratch.pt)
+
+### Onnx models running on [OpenVINO](https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html)
+- [Feature Transfer](https://github.com/anonymous20210107/calib_cobot/blob/main/yolov8_custom/models_v8_1000/v8_1000_freeze.onnx)
+- [Fined-tunning](https://github.com/anonymous20210107/calib_cobot/blob/main/yolov8_custom/models_v8_1000/v8_1000_pretrain.onnx)
+- [Scratch](https://github.com/anonymous20210107/calib_cobot/blob/main/yolov8_custom/models_v8_1000/v8_1000_scratch.onnx)
 
 ## Dataset
 We train our custom models with our own in-lab dataset.
@@ -62,7 +63,7 @@ You can find it here [Dataset](https://github.com/anonymous20210107/calib_cobot/
 
 
 ## Yolov8
-- Reference from [Yolov8]()
+- Reference from [Yolov8](https://github.com/ultralytics/ultralytics)
 - Our custom code for calculating Precision over IoU [Yolov8_custom](https://github.com/anonymous20210107/calib_cobot/tree/main/yolov8_custom)
 
 ## Citing
