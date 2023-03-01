@@ -11,6 +11,12 @@
 <img src="images/concept.png" alt="" width="600"/>
 </p>
 
+# Video
+
+<p align="center">
+[![Demo](images/concept.png)](images/video.mp4)
+</p>
+
 
 ## Abstract
 Calibration is the first and foremost step in robotics in dealing with displacement errors that usually occur during the operation and off-time periods to enable robots to manipulate objects precisely. In this paper, we present a novel multiplanar self-calibration between the camera system and the robot's end-effector for 3D object manipulation. Our approach first takes the robot end-effector as ground truth to calibrate the camera's position and orientation while the robot arm moves the object in multiple planes in 3D space, and a 2D state-of-the-art vision detector identifies the object's center in the image coordinates system. The transformation between world coordinates and image coordinates is then computed using 2D pixels from the detector and 3D known points obtained by robot kinematics. Next, an integrated stereo-vision system estimates the distance between the camera and the object, resulting in 3D object localization. Lastly, we test our proposed method on the Baxter robot with two 7-DOF arms and a 2D detector that can run in real time on an onboard GPU. After self-calibrating, our robot can localize objects in 3D using an RGB camera and depth image. The source code is available at [https://github.com/anonymous20210107/calib_cobot](https://github.com/anonymous20210107/calib_cobot).
