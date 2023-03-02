@@ -19,6 +19,7 @@ The GUI is written in Python using PyQt5. Please install PyQt5:
 - Connect to server (main unit on robot)
 - Enable robot then untuck robot
 - Use -/+ to move each join of robot to desired position
+- Calibrate hands, then open or close hands to hold objects
 - Use arrow to navigate the base of robot
 - Program Python and execute from remote center/base units
 
